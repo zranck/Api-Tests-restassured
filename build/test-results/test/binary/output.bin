@@ -1,0 +1,78 @@
+Request method:	POST
+>Request URI:	https://fakerestapi.azurewebsites.net/api/Users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+#Headers:		Accept=application/json
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ID": 1337,
+    "UserName": "Observe",
+    "Password": "Point"
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 168
+/Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+èSet-Cookie: ARRAffinity=cb4308daf0949850fad2bc32568054bec0fe12274c3f98e30180df1cb3df6576;Path=/;HttpOnly;Domain=fakerestapi.azurewebsites.net
+%Date: Wed, 10 Jul 2019 02:23:41 GMT
+
+{
+    "ID": 1337,
+    "UserName": "Observe",
+    "Password": "Point"
+}
+Request method:	POST
+>Request URI:	https://fakerestapi.azurewebsites.net/api/Books
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+#Headers:		Accept=application/json
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ID": 0,
+    "Title": "Zac Ranck",
+*    "Description": "You Should Hire Him",
+    "PageCount": 200,
+    "Excerpt": "string",
+.    "PublishDate": "2019-07-09T22:38:50.292Z"
+}
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 244
+/Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+Expires: -1
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+èSet-Cookie: ARRAffinity=cb4308daf0949850fad2bc32568054bec0fe12274c3f98e30180df1cb3df6576;Path=/;HttpOnly;Domain=fakerestapi.azurewebsites.net
+%Date: Wed, 10 Jul 2019 02:23:42 GMT
+
+{
+    "ID": 0,
+    "Title": "Zac Ranck",
+*    "Description": "You Should Hire Him",
+    "PageCount": 200,
+    "Excerpt": "string",
+.    "PublishDate": "2019-07-09T22:38:50.292Z"
+}
